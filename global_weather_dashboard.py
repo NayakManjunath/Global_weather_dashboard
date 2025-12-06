@@ -1,7 +1,7 @@
 import requests 
 import matplotlib.pyplot as plt
 
-API_KEY = "73af25d0523a1ea15b3a4b0d076a4d8c"
+API_KEY = "your api key"
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 
 def fetch_weather_data(city):
@@ -71,3 +71,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
